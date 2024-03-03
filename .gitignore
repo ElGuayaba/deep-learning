@@ -1,3 +1,8 @@
 __pycache__
 .env
 .learn
+data/raw/cat/*.jpg
+data/raw/dog/*.jpg
+data/raw/test/*.jpg
+# Add the model to gitignore because it is too big
+models/image-classifier.pkl 
